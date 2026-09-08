@@ -1,0 +1,8 @@
+{
+  "name": "JSONDev Suite",
+  "description": "Ultra-fast, privacy-first online JSON Formatter, Validator, Tree Viewer, and Mock API Generator with 100% client-side processing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

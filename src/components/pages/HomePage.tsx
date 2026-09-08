@@ -68,6 +68,17 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
 
       {/* Hero Section */}
       <section className="text-center space-y-4 max-w-4xl mx-auto pt-4">
+        <div className="flex justify-center mb-1">
+          <div className="relative flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-2xl overflow-hidden border border-cyan-500/30 shadow-xl shadow-cyan-500/20 bg-zinc-900">
+            <img
+              src="/logo.jpg"
+              alt="JSONDev Suite Logo"
+              referrerPolicy="no-referrer"
+              className="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-800/40 text-cyan-300 text-xs font-mono">
           <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
           <span>Production-Ready Developer Micro-SaaS • 100% In-Browser</span>

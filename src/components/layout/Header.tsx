@@ -50,8 +50,13 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={() => handleNav('/')}
             className="flex items-center gap-2.5 text-left group focus:outline-none"
           >
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 shadow-sm shadow-cyan-500/20 text-zinc-950 font-bold">
-              <FileJson className="w-5 h-5 text-white" />
+            <div className="relative flex h-9 w-9 items-center justify-center rounded-lg overflow-hidden border border-cyan-500/30 shadow-md shadow-cyan-500/20 bg-zinc-900 shrink-0 group-hover:border-cyan-400/60 transition-all">
+              <img
+                src="/logo.jpg"
+                alt="JSONDev Suite Logo"
+                referrerPolicy="no-referrer"
+                className="h-full w-full object-cover"
+              />
             </div>
             <div>
               <div className="flex items-center gap-1.5 font-bold tracking-tight text-zinc-100 group-hover:text-cyan-400 transition-colors">

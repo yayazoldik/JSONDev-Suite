@@ -13,9 +13,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
           {/* Col 1: Brand & Privacy Commitment */}
           <div className="space-y-3 md:col-span-1">
-            <div className="flex items-center gap-2">
-              <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-cyan-500 text-zinc-950 font-bold">
-                <FileJson className="w-4 h-4 text-zinc-950" />
+            <div className="flex items-center gap-2.5">
+              <div className="relative flex h-8 w-8 items-center justify-center rounded-lg overflow-hidden border border-cyan-500/30 bg-zinc-900 shrink-0">
+                <img
+                  src="/logo.jpg"
+                  alt="JSONDev Suite Logo"
+                  referrerPolicy="no-referrer"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <span className="font-mono text-sm font-bold text-zinc-100">JSONDev Suite</span>
             </div>

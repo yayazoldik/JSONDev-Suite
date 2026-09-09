@@ -17,10 +17,10 @@ export const AboutPage: React.FC = () => {
           <span>Engineering Manifesto</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-zinc-100 tracking-tight">
-          About JSONDev Suite
+          About JSONFlow
         </h1>
         <p className="text-sm text-zinc-400 leading-relaxed">
-          Crafted for engineers who value privacy, sub-millisecond execution speeds, and clean developer aesthetics.
+          Crafted for engineers who value privacy, sub-millisecond execution speeds, and clean developer aesthetics at jsonflow.dev.
         </p>
       </div>
 
@@ -57,16 +57,16 @@ export const AboutPage: React.FC = () => {
       </div>
 
       <div className="prose prose-invert max-w-none text-xs text-zinc-300 space-y-4 leading-relaxed">
-        <h2 className="text-lg font-bold text-zinc-100 font-sans">Why We Built JSONDev Suite</h2>
+        <h2 className="text-lg font-bold text-zinc-100 font-sans">Why We Built JSONFlow</h2>
         <p>
           Every day, millions of developers, DevOps engineers, and QA specialists paste confidential production payloads into ad-ridden, sluggish online tools. Most of these tools lack basic privacy guarantees, and many send data back to untracked backend endpoints.
         </p>
         <p>
-          We engineered JSONDev Suite as an enterprise-grade, privacy-first single-page application. By combining the speed of modern React, Tailwind CSS, and client-side V8 computation, we deliver an ultra-fast experience with zero server transmission.
+          We engineered JSONFlow as an enterprise-grade, privacy-first single-page application. By combining the speed of modern React, Tailwind CSS, and client-side V8 computation, we deliver an ultra-fast experience with zero server transmission.
         </p>
       </div>
 
-      <Accordion items={seoMeta.faqs} title="Frequently Asked Questions About JSONDev Suite" />
+      <Accordion items={seoMeta.faqs} title="Frequently Asked Questions About JSONFlow" />
 
       <AdSenseBanner placement="bottom" />
     </div>

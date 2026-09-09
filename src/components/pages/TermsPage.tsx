@@ -20,7 +20,7 @@ export const TermsPage: React.FC = () => {
           Terms of Service
         </h1>
         <p className="text-sm text-zinc-400 leading-relaxed">
-          Please read these terms carefully before using JSONDev Suite. By accessing or using our developer tools, you agree to be bound by these terms.
+          Please read these terms carefully before using JSONFlow (jsonflow.dev). By accessing or using our developer tools, you agree to be bound by these terms.
         </p>
       </div>
 
@@ -28,7 +28,7 @@ export const TermsPage: React.FC = () => {
         <section className="space-y-2">
           <h2 className="text-lg font-bold text-zinc-100 font-sans">1. License & Permitted Use</h2>
           <p>
-            JSONDev Suite grants you a non-exclusive, worldwide, royalty-free license to use all formatting, validation, tree visualization, and mock API simulation tools for both personal, commercial, and enterprise software development workflows.
+            JSONFlow grants you a non-exclusive, worldwide, royalty-free license to use all formatting, validation, tree visualization, and mock API simulation tools for both personal, commercial, and enterprise software development workflows.
           </p>
         </section>
 
@@ -42,7 +42,7 @@ export const TermsPage: React.FC = () => {
         <section className="space-y-2">
           <h2 className="text-lg font-bold text-zinc-100 font-sans">3. Disclaimer of Warranty</h2>
           <p>
-            JSONDev Suite is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind. While our parsing logic enforces strict compliance with IETF RFC 8259, you are solely responsible for testing and verifying payloads in critical production systems.
+            JSONFlow is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind. While our parsing logic enforces strict compliance with IETF RFC 8259, you are solely responsible for testing and verifying payloads in critical production systems.
           </p>
         </section>
 

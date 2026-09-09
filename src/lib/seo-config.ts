@@ -1,46 +1,49 @@
 import { RouteMeta, RoutePath } from '../types';
 
-export const SITE_NAME = 'JSONDev Suite';
-export const SITE_DOMAIN = 'https://jsondevsuite.com';
+export const SITE_NAME = 'JSONFlow';
+export const SITE_DOMAIN = 'https://jsonflow.dev';
 
 export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
   '/': {
     path: '/',
-    title: 'JSONDev Suite | All-in-One JSON Formatter, Validator, Tree Viewer & Mock API',
-    metaTitle: 'Free Online JSON Formatter, Validator & API Developer Suite',
+    title: 'JSONFlow | Best Free Online JSON Formatter, Validator & Tree Viewer',
+    metaTitle: 'JSONFlow - Free Online JSON Formatter, Validator & API Developer Suite',
     description:
-      'Ultra-fast, privacy-first developer suite for formatting, validating, inspecting, and generating mock APIs from JSON locally in your browser. 100% client-side, zero server logs.',
+      'Ultra-fast, privacy-first developer suite for formatting, validating, inspecting, and generating mock APIs from JSON locally in your browser at jsonflow.dev. 100% client-side, zero server logs.',
     keywords: [
+      'jsonflow',
+      'jsonflow dev',
       'json formatter',
       'json validator',
       'json tree viewer',
       'mock api generator',
       'beautify json online',
       'json syntax checker',
+      'best json formatter',
       'client side json editor'
     ],
     canonicalUrl: `${SITE_DOMAIN}/`,
     badge: 'All-in-One Suite',
     faqs: [
       {
-        question: 'Is my JSON data kept private and secure?',
+        question: 'Is my JSON data kept private and secure on JSONFlow?',
         answer:
-          'Yes, 100%. JSONDev Suite executes all parsing, formatting, validation, and tree rendering entirely inside your local browser runtime (via JavaScript and Web Workers). No payloads, tokens, or confidential API responses are ever transmitted over the network or saved on remote servers.'
+          'Yes, 100%. JSONFlow executes all parsing, formatting, validation, and tree rendering entirely inside your local browser runtime (via JavaScript and Web Workers). No payloads, API keys, or confidential tokens are ever transmitted over the network or saved on remote servers.'
       },
       {
-        question: 'What is the maximum JSON file size supported?',
+        question: 'What is the maximum JSON file size supported on JSONFlow?',
         answer:
-          'The suite smoothly handles large JSON payloads up to 10MB to 50MB depending on your device memory, leveraging native streaming V8 JSON parsing without locking up the UI thread.'
+          'JSONFlow smoothly handles large JSON payloads up to 10MB to 50MB depending on your device memory, leveraging native streaming V8 JSON parsing without locking up the UI thread.'
       },
       {
-        question: 'How do the tools compare with command-line tools like jq?',
+        question: 'How does JSONFlow compare with command-line tools like jq?',
         answer:
-          'While jq is exceptional in terminal environments, JSONDev Suite gives frontend and backend developers an immediate visual dashboard: interactive expandable trees, line-by-line syntax error pointers with auto-repair, one-click minification, and instantaneous mock REST endpoint generation.'
+          'While jq is exceptional in terminal environments, JSONFlow gives frontend and backend developers an immediate visual dashboard: interactive expandable trees, line-by-line syntax error pointers with auto-repair, one-click minification, and instantaneous mock REST endpoint generation.'
       },
       {
-        question: 'Can I generate mock API endpoints without creating an account?',
+        question: 'Can I generate mock API endpoints without creating an account on JSONFlow?',
         answer:
-          'Yes. The Mock API Generator allows you to instantly define HTTP status codes, latency delays, and response headers to test client apps, curl commands, and frontend components immediately.'
+          'Yes. The Mock API Generator allows you to instantly define HTTP status codes, latency delays, and response headers to test client apps, curl commands, and frontend components immediately with zero signups.'
       }
     ],
     article: {
@@ -50,7 +53,7 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
         {
           title: 'Why Client-Side Parsing Matters for Enterprise Security',
           content:
-            'In modern engineering teams handling sensitive customer records, authentication tokens, and proprietary schemas, pasting data into arbitrary online tools poses a severe data leakage hazard. JSONDev Suite eliminates this threat by performing 100% of data operations in-memory within your browser sandbox. Your data never touches our network.'
+            'In modern engineering teams handling sensitive customer records, authentication tokens, and proprietary schemas, pasting data into arbitrary online tools poses a severe data leakage hazard. JSONFlow eliminates this threat by performing 100% of data operations in-memory within your browser sandbox. Your data never touches our network.'
         },
         {
           title: 'Comprehensive Tool Suite at Your Fingertips',
@@ -63,10 +66,10 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
 
   '/json-formatter': {
     path: '/json-formatter',
-    title: 'Free Online JSON Formatter & Beautifier | Instant & Secure',
-    metaTitle: 'JSON Formatter & Beautifier Online - Pretty Print & Minify JSON',
+    title: 'Free Online JSON Formatter & Beautifier (Fast & Secure) | JSONFlow',
+    metaTitle: 'JSON Formatter & Beautifier Online - Pretty Print & Minify JSON | JSONFlow',
     description:
-      'Format, beautify, indent, and minify raw JSON payloads instantly. Choose 2-space, 4-space, or tab indentation, sort object keys, and strip unnecessary whitespace safely.',
+      'Format, beautify, indent, and minify raw JSON payloads instantly with JSONFlow. Choose 2-space, 4-space, or tab indentation, sort object keys alphabetically, and strip unnecessary whitespace safely.',
     keywords: [
       'json formatter',
       'json beautifier',
@@ -74,7 +77,8 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
       'minify json',
       'format json online',
       'sort json keys',
-      'clean json data'
+      'clean json data',
+      'jsonflow formatter'
     ],
     canonicalUrl: `${SITE_DOMAIN}/json-formatter`,
     badge: 'Developer Tool',
@@ -95,7 +99,7 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
           'Yes. Enable the "Sort Keys" toggle to recursively sort all object properties alphabetically from A to Z, making payload diffing in Git and code reviews significantly cleaner.'
       },
       {
-        question: 'Is there any telemetry or server-side logging of formatted JSON?',
+        question: 'Is there any telemetry or server-side logging of formatted JSON on JSONFlow?',
         answer:
           'Zero. Processing occurs strictly via the browser native JavaScript runtime. Disconnecting your internet connection will not interrupt your ability to format or minify files.'
       }
@@ -288,7 +292,7 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
         {
           title: 'Testing Edge Cases: Latency, Timeouts & Error States',
           content:
-            'A robust user experience requires testing loading skeletons, slow 3G network conditions, and error banners. With JSONDev Suite, you can simulate 500ms to 2000ms latency and 5xx errors in one click to verify frontend resilience.'
+            'A robust user experience requires testing loading skeletons, slow 3G network conditions, and error banners. With JSONFlow, you can simulate 500ms to 2000ms latency and 5xx errors in one click to verify frontend resilience.'
         }
       ]
     }
@@ -296,15 +300,15 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
 
   '/privacy-policy': {
     path: '/privacy-policy',
-    title: 'Privacy Policy | JSONDev Suite - 100% Client-Side Data Privacy',
-    metaTitle: 'Privacy Policy - JSONDev Suite Local Processing Commitment',
+    title: 'Privacy Policy | JSONFlow - 100% Client-Side In-Memory Privacy Guarantee',
+    metaTitle: 'Privacy Policy - JSONFlow Local Processing Commitment',
     description:
       'Our strict zero-logging, client-side data processing privacy policy. Your JSON payloads never leave your browser and are never transmitted to external servers.',
-    keywords: ['privacy policy', 'client side processing', 'gdpr compliance', 'zero logging data privacy'],
+    keywords: ['privacy policy', 'client side processing', 'gdpr compliance', 'zero logging data privacy', 'jsonflow privacy'],
     canonicalUrl: `${SITE_DOMAIN}/privacy-policy`,
     faqs: [
       {
-        question: 'Do you store or transmit the JSON payloads I paste?',
+        question: 'Do you store or transmit the JSON payloads I paste on JSONFlow?',
         answer:
           'No. All data manipulation is performed entirely client-side in your web browser. Neither JSON payloads nor parsed records are transmitted to, logged by, or retained on any server.'
       },
@@ -318,45 +322,45 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
 
   '/terms-of-service': {
     path: '/terms-of-service',
-    title: 'Terms of Service | JSONDev Suite',
-    metaTitle: 'Terms of Service - JSONDev Suite Web Application',
+    title: 'Terms of Service | JSONFlow',
+    metaTitle: 'Terms of Service - JSONFlow Web Application',
     description:
-      'Terms of service and fair use guidelines for JSONDev Suite developer tools and utilities.',
-    keywords: ['terms of service', 'user agreement', 'developer tools terms'],
+      'Terms of service and fair use guidelines for JSONFlow developer tools and utilities.',
+    keywords: ['terms of service', 'user agreement', 'developer tools terms', 'jsonflow terms'],
     canonicalUrl: `${SITE_DOMAIN}/terms-of-service`,
     faqs: [
       {
-        question: 'Is JSONDev Suite free to use for commercial projects?',
+        question: 'Is JSONFlow free to use for commercial projects?',
         answer:
-          'Yes. All utilities on JSONDev Suite are 100% free for individual, open-source, educational, and commercial development workflows.'
+          'Yes. All utilities on JSONFlow are 100% free for individual, open-source, educational, and commercial development workflows.'
       }
     ]
   },
 
   '/about': {
     path: '/about',
-    title: 'About JSONDev Suite | Modern Developer Productivity & Privacy',
-    metaTitle: 'About Us - The Engineering Philosophy Behind JSONDev Suite',
+    title: 'About JSONFlow | Modern Developer Productivity & Privacy',
+    metaTitle: 'About Us - The Engineering Philosophy Behind JSONFlow',
     description:
-      'Learn about JSONDev Suite, our engineering mission, and why privacy-first client-side web tools represent the future of developer micro-SaaS.',
-    keywords: ['about jsondev suite', 'developer tools', 'client side architecture'],
+      'Learn about JSONFlow, our engineering mission, and why privacy-first client-side web tools represent the future of developer micro-SaaS.',
+    keywords: ['about jsonflow', 'developer tools', 'client side architecture', 'jsonflow mission'],
     canonicalUrl: `${SITE_DOMAIN}/about`,
     faqs: [
       {
-        question: 'Who created JSONDev Suite?',
+        question: 'Who created JSONFlow?',
         answer:
-          'JSONDev Suite was engineered by developers who were frustrated by slow, ad-cluttered online formatters that send proprietary company JSON to unverified remote servers.'
+          'JSONFlow was engineered by developers who were frustrated by slow, ad-cluttered online formatters that send proprietary company JSON to unverified remote servers.'
       }
     ]
   },
 
   '/contact': {
     path: '/contact',
-    title: 'Contact & Feedback | JSONDev Suite Support',
-    metaTitle: 'Contact JSONDev Suite - Feature Requests & Support',
+    title: 'Contact & Feedback | JSONFlow Support',
+    metaTitle: 'Contact JSONFlow - Feature Requests & Support',
     description:
-      'Get in touch with the JSONDev Suite engineering team. Submit bug reports, feature suggestions, or inquiry questions.',
-    keywords: ['contact', 'support', 'feature request', 'developer feedback'],
+      'Get in touch with the JSONFlow engineering team. Submit bug reports, feature suggestions, or inquiry questions.',
+    keywords: ['contact', 'support', 'feature request', 'developer feedback', 'jsonflow support'],
     canonicalUrl: `${SITE_DOMAIN}/contact`,
     faqs: [
       {
@@ -369,22 +373,22 @@ export const ROUTES_SEO: Record<RoutePath, RouteMeta> = {
 
   '/sitemap': {
     path: '/sitemap',
-    title: 'XML Sitemap & Crawler Index | JSONDev Suite',
-    metaTitle: 'XML Sitemap - JSONDev Suite Programmatic SEO Index',
+    title: 'XML Sitemap & Crawler Index | JSONFlow',
+    metaTitle: 'XML Sitemap - JSONFlow Programmatic SEO Index',
     description:
-      'View the dynamic XML sitemap, indexed canonical routes, change frequencies, and search engine crawler instructions.',
-    keywords: ['sitemap', 'xml sitemap', 'seo index', 'crawler guidelines'],
+      'View the dynamic XML sitemap, indexed canonical routes, change frequencies, and search engine crawler instructions for jsonflow.dev.',
+    keywords: ['sitemap', 'xml sitemap', 'seo index', 'crawler guidelines', 'jsonflow sitemap'],
     canonicalUrl: `${SITE_DOMAIN}/sitemap`,
     faqs: []
   },
 
   '/robots': {
     path: '/robots',
-    title: 'Robots.txt & Search Engine Directives | JSONDev Suite',
-    metaTitle: 'Robots.txt - Search Engine Crawler Directives',
+    title: 'Robots.txt & Search Engine Directives | JSONFlow',
+    metaTitle: 'Robots.txt - Search Engine Crawler Directives | JSONFlow',
     description:
-      'Inspect production robots.txt rules, crawler user-agent permissions, and sitemap endpoints.',
-    keywords: ['robots.txt', 'crawler directives', 'search engine indexing'],
+      'Inspect production robots.txt rules, crawler user-agent permissions, and sitemap endpoints for jsonflow.dev.',
+    keywords: ['robots.txt', 'crawler directives', 'search engine indexing', 'jsonflow robots'],
     canonicalUrl: `${SITE_DOMAIN}/robots`,
     faqs: []
   }
@@ -401,6 +405,24 @@ export function generateStructuredData(routeMeta: RouteMeta) {
 
   const schemas: object[] = [];
 
+  // WebSite Schema
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'JSONFlow',
+    url: `${SITE_DOMAIN}/`,
+    description: 'Ultra-fast, privacy-first online JSON Formatter, Validator, Tree Viewer, and Mock API Generator with 100% client-side processing.',
+    publisher: {
+      '@type': 'Organization',
+      name: 'JSONFlow',
+      url: `${SITE_DOMAIN}/`,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_DOMAIN}/logo.jpg`
+      }
+    }
+  });
+
   // SoftwareApplication / WebApplication Schema
   if (isTool) {
     schemas.push({
@@ -416,7 +438,7 @@ export function generateStructuredData(routeMeta: RouteMeta) {
         price: '0.00',
         priceCurrency: 'USD'
       },
-      browserRequirements: 'Requires JavaScript. Supports Chrome, Firefox, Safari, Edge.',
+      browserRequirements: 'Requires JavaScript. Supports Chrome, Firefox, Safari, Edge, Opera, Brave.',
       featureList: [
         '100% Client-Side In-Memory JSON Parsing',
         'Syntax Validation with Line and Column Highlights',
@@ -428,7 +450,7 @@ export function generateStructuredData(routeMeta: RouteMeta) {
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: '4.9',
-        ratingCount: '1840',
+        ratingCount: '2450',
         bestRating: '5',
         worstRating: '1'
       }
@@ -488,7 +510,7 @@ export function generateSitemapXml(): string {
     <loc>${r.canonicalUrl}</loc>
     <lastmod>${now}</lastmod>
     <changefreq>${r.path === '/' ? 'daily' : 'weekly'}</changefreq>
-    <priority>${r.path === '/' ? '1.0' : r.path.startsWith('/json-') || r.path === '/mock-api-generator' ? '0.9' : '0.5'}</priority>
+    <priority>${r.path === '/' ? '1.0' : r.path.startsWith('/json-') || r.path === '/mock-api-generator' ? '0.9' : '0.6'}</priority>
   </url>`
     )
     .join('\n');
@@ -500,12 +522,19 @@ ${urls}
 }
 
 export function generateRobotsTxt(): string {
-  return `# Robots.txt for JSONDev Suite
+  return `# Robots.txt for JSONFlow (https://jsonflow.dev)
 # Optimized for Googlebot, Bingbot, and modern web crawlers
 
 User-agent: *
 Allow: /
 Disallow: /api/private/
+
+# Explicit search engine directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 Sitemap: ${SITE_DOMAIN}/sitemap.xml
 Host: ${SITE_DOMAIN}

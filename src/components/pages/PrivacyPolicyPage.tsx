@@ -20,7 +20,7 @@ export const PrivacyPolicyPage: React.FC = () => {
           Privacy Policy
         </h1>
         <p className="text-sm text-zinc-400 leading-relaxed">
-          At JSONDev Suite, developer confidentiality and transparency are our highest engineering commitments. This policy describes how we handle information when you use our web utilities.
+          At JSONFlow (jsonflow.dev), developer confidentiality and transparency are our highest engineering commitments. This policy describes how we handle information when you use our web utilities.
         </p>
       </div>
 
@@ -30,7 +30,7 @@ export const PrivacyPolicyPage: React.FC = () => {
           <Lock className="w-4 h-4" /> 100% In-Browser Computation Architecture
         </h2>
         <p className="text-xs text-zinc-300 leading-relaxed">
-          All JSON payloads, API response bodies, authorization headers, and schemas pasted or loaded into JSONDev Suite are processed purely within your device’s local memory (RAM) and web browser JavaScript runtime. We do not transmit, log, inspect, or retain your JSON content on any remote server.
+          All JSON payloads, API response bodies, authorization headers, and schemas pasted or loaded into JSONFlow are processed purely within your device’s local memory (RAM) and web browser JavaScript runtime. We do not transmit, log, inspect, or retain your JSON content on any remote server.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export const PrivacyPolicyPage: React.FC = () => {
         <section className="space-y-2">
           <h2 className="text-lg font-bold text-zinc-100 font-sans">2. Google AdSense & Third-Party Advertising</h2>
           <p>
-            To maintain JSONDev Suite as a 100% free developer utility, we partner with third-party advertising vendors, including Google AdSense.
+            To maintain JSONFlow as a 100% free developer utility, we partner with third-party advertising vendors, including Google AdSense.
           </p>
           <ul className="list-disc pl-5 space-y-1 text-zinc-400">
             <li>
@@ -84,7 +84,7 @@ export const PrivacyPolicyPage: React.FC = () => {
         <section className="space-y-2">
           <h2 className="text-lg font-bold text-zinc-100 font-sans">6. Contact Our Privacy Officer</h2>
           <p>
-            If you have questions regarding this Privacy Policy or our client-side processing architecture, please submit an inquiry via our contact page or email <code>privacy@jsondevsuite.com</code>.
+            If you have questions regarding this Privacy Policy or our client-side processing architecture, please submit an inquiry via our contact page or email <code>privacy@jsonflow.dev</code>.
           </p>
         </section>
       </div>

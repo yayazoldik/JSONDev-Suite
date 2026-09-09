@@ -72,7 +72,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           <div className="relative flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-2xl overflow-hidden border border-cyan-500/30 shadow-xl shadow-cyan-500/20 bg-zinc-900">
             <img
               src="/logo.jpg"
-              alt="JSONDev Suite Logo"
+              alt="JSONFlow Logo"
               referrerPolicy="no-referrer"
               className="h-full w-full object-cover"
             />
@@ -188,11 +188,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             Why Modern Engineering Teams Prefer Client-Side Developer Tools
           </h2>
           <p className="text-sm text-zinc-400 leading-relaxed">
-            In modern cloud environments governed by SOC2, ISO 27001, and GDPR certifications, copying proprietary customer data or production logs into arbitrary third-party web formatters introduces significant compliance liabilities. JSONDev Suite was architected specifically to solve this problem by providing enterprise-grade developer utilities executing 100% inside your web browser.
+            In modern cloud environments governed by SOC2, ISO 27001, and GDPR certifications, copying proprietary customer data or production logs into arbitrary third-party web formatters introduces significant compliance liabilities. JSONFlow was architected specifically to solve this problem by providing enterprise-grade developer utilities executing 100% inside your web browser.
           </p>
         </div>
 
-        <Accordion items={seoMeta.faqs} title="Frequently Asked Questions: JSONDev Suite" />
+        <Accordion items={seoMeta.faqs} title="Frequently Asked Questions: JSONFlow" />
       </section>
 
       {/* Bottom Leaderboard AdSense */}

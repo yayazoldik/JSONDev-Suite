@@ -41,11 +41,11 @@ export const ContactPage: React.FC = () => {
         <div className="space-y-4 lg:col-span-1 text-xs">
           <div className="p-4 rounded-xl border border-zinc-800 bg-zinc-900/40 space-y-1.5">
             <div className="font-semibold text-zinc-200">Direct Engineering Email</div>
-            <p className="text-zinc-400">support@jsondevsuite.com</p>
+            <p className="text-zinc-400">support@jsonflow.dev</p>
           </div>
           <div className="p-4 rounded-xl border border-zinc-800 bg-zinc-900/40 space-y-1.5">
             <div className="font-semibold text-zinc-200">Security Inquiries</div>
-            <p className="text-zinc-400">security@jsondevsuite.com</p>
+            <p className="text-zinc-400">security@jsonflow.dev</p>
           </div>
           <div className="p-4 rounded-xl border border-zinc-800 bg-zinc-900/40 space-y-1.5">
             <div className="font-semibold text-zinc-200">Average Response SLA</div>

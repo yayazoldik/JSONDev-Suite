@@ -132,7 +132,7 @@ export const MockApiGeneratorView: React.FC = () => {
       body: activeEndpoint.responsePayload,
       headers: {
         'content-type': activeEndpoint.contentType,
-        'x-mock-server': 'JSONDev Suite Client Sandbox',
+        'x-mock-server': 'JSONFlow Client Sandbox',
         'x-response-time': `${duration}ms`
       }
     });
@@ -142,7 +142,7 @@ export const MockApiGeneratorView: React.FC = () => {
   // Code Snippets
   const getCodeSnippet = () => {
     if (!activeEndpoint) return '';
-    const mockUrl = `https://mock.jsondevsuite.com${activeEndpoint.path}`;
+    const mockUrl = `https://mock.jsonflow.dev${activeEndpoint.path}`;
 
     if (codeTab === 'curl') {
       return `curl -X ${activeEndpoint.method} "${mockUrl}" \\

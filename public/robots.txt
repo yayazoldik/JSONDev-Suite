@@ -1,0 +1,17 @@
+# Robots.txt for JSONFlow (https://jsonflow.dev)
+# Optimized for Googlebot, Bingbot, and modern search engine web crawlers
+
+User-agent: *
+Allow: /
+Disallow: /api/private/
+
+# Explicit search engine directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Canonical XML Sitemap
+Sitemap: https://jsonflow.dev/sitemap.xml
+Host: https://jsonflow.dev

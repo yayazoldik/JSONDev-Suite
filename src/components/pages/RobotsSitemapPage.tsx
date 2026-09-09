@@ -82,7 +82,16 @@ export const RobotsSitemapPage: React.FC<RobotsSitemapPageProps> = ({ view }) =>
           </button>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <a
+            href={activeTab === 'sitemap' ? '/sitemap.xml' : '/robots.txt'}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-cyan-400 hover:text-cyan-300 text-xs font-mono border border-cyan-800/40 transition-colors"
+          >
+            <ExternalLink className="w-3.5 h-3.5" />
+            <span>Open /{currentFilename} ↗</span>
+          </a>
           <button
             onClick={handleCopy}
             className="flex items-center gap-1 px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs font-mono border border-zinc-700 transition-colors"

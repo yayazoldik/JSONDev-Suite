@@ -31,13 +31,19 @@ export const SEOHead: React.FC<SEOHeadProps> = ({ meta }) => {
     setMetaTag('property', 'og:title', meta.title);
     setMetaTag('property', 'og:description', meta.description);
     setMetaTag('property', 'og:url', meta.canonicalUrl);
-    setMetaTag('property', 'og:site_name', 'JSONDev Suite');
+    setMetaTag('property', 'og:site_name', 'JSONFlow');
     setMetaTag('property', 'og:type', 'website');
+    setMetaTag('property', 'og:image', `${SITE_DOMAIN}/logo.jpg`);
 
     // Twitter
     setMetaTag('name', 'twitter:card', 'summary_large_image');
+    setMetaTag('name', 'twitter:site', '@jsonflow');
     setMetaTag('name', 'twitter:title', meta.metaTitle);
     setMetaTag('name', 'twitter:description', meta.description);
+    setMetaTag('name', 'twitter:image', `${SITE_DOMAIN}/logo.jpg`);
+
+    // Googlebot
+    setMetaTag('name', 'googlebot', 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
 
     // Canonical link
     let canonical = document.querySelector('link[rel="canonical"]');

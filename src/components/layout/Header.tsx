@@ -53,7 +53,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="relative flex h-9 w-9 items-center justify-center rounded-lg overflow-hidden border border-cyan-500/30 shadow-md shadow-cyan-500/20 bg-zinc-900 shrink-0 group-hover:border-cyan-400/60 transition-all">
               <img
                 src="/logo.jpg"
-                alt="JSONDev Suite Logo"
+                alt="JSONFlow Logo"
                 referrerPolicy="no-referrer"
                 className="h-full w-full object-cover"
               />
@@ -61,8 +61,8 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="flex items-center gap-1.5 font-bold tracking-tight text-zinc-100 group-hover:text-cyan-400 transition-colors">
                 <span className="text-base font-mono">JSON</span>
-                <span className="text-xs px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 font-mono">
-                  DevSuite
+                <span className="text-xs px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 font-mono font-semibold">
+                  Flow.dev
                 </span>
               </div>
             </div>
